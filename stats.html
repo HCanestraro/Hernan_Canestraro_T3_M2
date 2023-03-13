@@ -1,0 +1,163 @@
+<!-- ═════════════════ [STATS] ═════════════════-->
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>[Task 3 Modulo 2 - STATS]</title>
+		<link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" href="./style/style.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+			crossorigin="anonymous">
+		<script src="./script/data.js"></script>
+		<script src="./script/che.js"></script>
+	</head>
+
+	<body>
+		<main>
+			<!-- ═════════════════ [NAVBAR] ═════════════════-->
+		<!-- <nav class="navbar d-flex container-fluid box1">
+			<div class="d-flex container-fluid aling-items-center">
+				<div class="justify-content-start aling-content-center">
+					<img src="./assets/LogoAmazingEvents.png" alt="Logo" class="logo1">
+				</div>
+				<div class="justify-content-end">
+					<a class="navbar-brand btn btn-outline-success me-2" role="button" data-bs-toggle="tooltip"	data-bs-placement="bottom" title="Go to Home Page..." href="./index.html">Home</a>
+					<a class="navbar-brand btn btn-outline-success me-2" role="button" data-bs-toggle="tooltip"	data-bs-placement="bottom" title="Go to Upcoming Events Page..." href="./upcomingEvents.html">Upcoming Events</a>
+					<a class="navbar-brand btn btn-outline-success me-2" role="button" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Go to Past Events Page..." href="./pastEvents.html">Past Events</a>
+					<a class="navbar-brand btn btn-outline-success me-2" role="button" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Go to Contact Us Page..." href="./contact.html">Contact</a>
+				 	<a class="navbar-brand btn btn-outline-success me-2" role="button" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Go to Stats Page..." href="./stats.html">Stats</a>
+				</div>
+			</div>
+		</nav> -->
+		<script>cheNavbar();</script>
+			<!-- ═════════════════ [PAGES] ═════════════════-->
+			<div class="d-flex container-fluid box1 bg-dark text-light aling-items-center justify-content-between aling-content-center">
+				<div class="d-flex justify-content-start aling-content-center align-items-center" > 					
+					<a href="./contact.html" data-bs-toggle="tooltip" data-bs-placement="bottom"
+					title="Go to view previous Page..."><img class="btnpages" src="./assets/arrowL.jpg" alt=""></a>
+			</div>
+			<div>
+				<h1>Stats</h1>
+			</div>
+			<div class="d-flex justify-content-end align-content-center align-items-center">
+				<a href="./index.html" data-bs-toggle="tooltip" data-bs-placement="bottom"
+				title="Go to view next Page..."><img class="btnpages" src="./assets/arrowR.jpg" alt=""></a>
+			</div>
+		</div>
+			<!-- ═════════════════ [TABLAS] ═════════════════-->
+			<div class="container">
+				<table id="statsTable" style="border: solid; width: 100%;">
+					<!-- <caption>Table Events statistics</caption> -->
+					<thead>
+						<tr>
+							<th colspan="3" style="background-color: gray;">Events
+								statistics</th>
+						</tr>
+					</thead>
+					<tbody style="border: solid; width: 100%;">
+						<tr>
+							<td style="border: solid;">Events with the highest percentage of
+								attendance</td>
+							<td style="border: solid;">Events with the highest percentage of
+								attendance</td>
+							<td style="border: solid;">Event with larger capacity</td>
+						</tr>
+						<tr>
+							<td style="border: solid;"> </td>
+							<td style="border: solid;"> </td>
+							<td style="border: solid;"> </td>
+						</tr>
+					</tbody>
+				</table>
+				<table style="border: solid; width: 100%;">
+					<thead style="border: solid; width: 100%;">
+						<tr>
+							<th colspan="3" style="background-color: gray;">Upcoming events
+								statistics by category</th>
+						</tr>
+					</thead>
+					<tbody style="border: solid; width: 100%;">
+						<tr>
+							<td style="border: solid;">Categories</td>
+							<td style="border: solid;">Revenues</td>
+							<td style="border: solid;">Percentage of attendance</td>
+						</tr>
+						<tr>
+							<td style="border: solid;"> </td>
+							<td style="border: solid;"> </td>
+							<td style="border: solid;"> </td>
+						</tr>
+						<tr>
+							<td style="border: solid;"> </td>
+							<td style="border: solid;"> </td>
+							<td style="border: solid;"> </td>
+						</tr>
+						<tr>
+							<td style="border: solid;"> </td>
+							<td style="border: solid;"> </td>
+							<td style="border: solid;"> </td>
+						</tr>
+					</tbody>
+				</table>
+				<table class="table table-borderer border-primary" style="border: solid; width: 100%;">
+					<thead style="border: solid; width: 100%;">
+						<tr>
+							<th colspan="3" style="background-color: gray;">Past Events
+								statistic by category</th>
+						</tr>
+					</thead>
+					<tbody style="border: solid; width: 100%;">
+						<tr>
+							<td style="border: solid;">Categories</td>
+							<td style="border: solid;">Revenues</td>
+							<td style="border: solid;">Percentage of attendance</td>
+						</tr>
+						<tr>
+							<td style="border: solid;"> </td>
+							<td style="border: solid;"> </td>
+							<td style="border: solid;"> </td>
+						</tr>
+						<tr>
+							<td style="border: solid;"> </td>
+							<td style="border: solid;"> </td>
+							<td style="border: solid;"> </td>
+						</tr>
+						<tr>
+							<td style="border: solid;"> </td>
+							<td style="border: solid;"> </td>
+							<td style="border: solid;"> </td>
+						</tr>
+						<tr>
+							<td style="border: solid;"> </td>
+							<td style="border: solid;"> </td>
+							<td style="border: solid;"> </td>
+						</tr>
+						<tr>
+							<td style="border: solid;"> </td>
+							<td style="border: solid;"> </td>
+							<td style="border: solid;"> </td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<!-- ═════════════════ [FOOTER] ═════════════════-->
+			<script>cheFooter();</script>
+
+		</main>
+		<script>
+			let tooltips = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+			for (let i of tooltips) {
+				new bootstrap.Tooltip(i);
+			}
+		</script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+			crossorigin="anonymous"></script>
+	</body>
+
+</html>
